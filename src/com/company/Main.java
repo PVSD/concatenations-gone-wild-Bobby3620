@@ -1,5 +1,4 @@
 package com.company;
-import java.util.*;
 
 public class Main {
 
@@ -15,7 +14,7 @@ public class Main {
     private static String cat(int start, int end)
     {
         StringBuffer sb = new StringBuffer();
-        for(int i = start; i<= end; i++){
+        for(int i = start; i <= end; i++){
             sb.append((char)i);
         }
         return sb.toString();
